@@ -1,0 +1,10 @@
+services:
+  eicar:
+    image: ghcr.io/eclipse-slm/eicar:latest
+    build: .
+    container_name: eicar
+    volumes:
+      - eicar-volumes:/eicar
+
+volumes:
+  eicar-volumes:
