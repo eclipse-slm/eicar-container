@@ -1,0 +1,14 @@
+name: Infected Service
+serviceVendorId: 4b407e9f-2154-401d-a4e1-b1497c5619c1
+description: This is a docker-based test service containing the EICAR test file. It is used to test the detection of malware by security products. The service is not malicious and does not contain any malware.
+shortDescription: This is a docker-based test service containing the EICAR test file.
+coverImageFilename: skull.png
+serviceCategoryName: Application
+version:
+  serviceOptionCategories: []
+  serviceRequirements: []
+  serviceRepositories: []
+  deploymentDefinition:
+    deploymentType: DOCKER_COMPOSE
+    composeFilename: docker-compose.yml
+    envFilenames: []
